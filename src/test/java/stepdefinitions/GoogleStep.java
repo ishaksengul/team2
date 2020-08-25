@@ -19,6 +19,7 @@ public class GoogleStep {
         System.out.println("ismail'den selamlar");
         System.out.println("Fedai'den selamlar");
         System.out.println("KRAL HAKAN SUKUR");  
+        System.out.println("ilk commit from ruveyda");
         
         
         
