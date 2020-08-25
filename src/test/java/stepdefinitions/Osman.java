@@ -6,7 +6,6 @@ import pages.GooglePage;
 import utilities.Driver;
 
 public class Osman {
-    GooglePage googlePage = new GooglePage();
 
 
 

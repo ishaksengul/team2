@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class ismail {
-    //GooglePage googlePage = new GooglePage();
+
 
 
 
