@@ -1,7 +1,6 @@
-@fedai
+@ylmzslc
 Feature: Google search
-
-  Scenario: user search iphone on google
+  Scenario: user search samsung on google
     Given user on the google page
     And user searches for iphone
-    Then verify the results has iphone
+    Then verify the results has samsung
