@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.641">
 <testcase classname="Google search" name="user search Mathematik on google" time="0.139">
 <skipped><![CDATA[Given user on the google page...............................................skipped
 And user searches for Mathematik............................................undefined
 Then verify the results has Mathematik......................................undefined
 ]]></skipped>
+=======
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.163">
+<testcase classname="Google search" name="user search iphone on google" time="9.903">
+<system-out><![CDATA[Given user on the google page...............................................passed
+And user searches for iphone................................................passed
+Then verify the results has iphone..........................................passed
+]]></system-out>
+>>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
 </testcase>
 </testsuite>

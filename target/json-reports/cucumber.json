@@ -3,7 +3,11 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-08-25T22:22:53.774Z",
+=======
+        "start_timestamp": "2020-08-25T22:16:28.817Z",
+>>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
         "line": 3,
         "name": "user search Mathematik on google",
         "description": "",
@@ -13,8 +17,13 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3000000,
               "status": "skipped"
+=======
+              "duration": 6165000000,
+              "status": "passed"
+>>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
             },
             "line": 4,
             "name": "user on the google page",
@@ -25,7 +34,12 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
+=======
+              "duration": 1466000000,
+              "status": "passed"
+>>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
             },
             "line": 5,
             "name": "user searches for Mathematik",
@@ -34,7 +48,12 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
+=======
+              "duration": 2124000000,
+              "status": "passed"
+>>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
             },
             "line": 6,
             "name": "verify the results has Mathematik",
