@@ -12,6 +12,12 @@ public class GoogleStep {
     @Given("user on the google page")
     public void user_on_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
+
+        
+        
+        
+        
+
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
          System.out.println("KRAL HAKAN SUKUR");
@@ -27,6 +33,7 @@ public class GoogleStep {
         System.out.println("KRAL HAKAN  I aggree");
         
          System.out.println("Osman'dan selamlar");
+
     }
 
     @Given("user searches for iphone")
@@ -41,5 +48,6 @@ public class GoogleStep {
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphone"));
 
     }
+    System.out.println("Usame den merhabalar")
 
 }
