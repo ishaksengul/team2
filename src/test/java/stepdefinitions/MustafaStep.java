@@ -4,18 +4,19 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.GooglePage;
+import utilities.ConfigReader;
 import utilities.Driver;
 
-public class GoogleStep {
+public class MustafaStep {
     GooglePage googlePage = new GooglePage();
     @Given("user on the google page")
     public void user_on_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
 
-        
-        
-        
-        
+
+
+
+
 
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
@@ -23,15 +24,15 @@ public class GoogleStep {
         System.out.println("Herkese Merhaba Selcuk");
         System.out.println("ismail'den selamlar");
         System.out.println("Fedai'den selamlar");
-        System.out.println("KRAL HAKAN SUKUR");  
+        System.out.println("KRAL HAKAN SUKUR");
         System.out.println("ilk commit from ruveyda");
-        
-        
-        
+
+
+
         System.out.println("Yeni bir Dünya!");
         System.out.println("KRAL HAKAN  I aggree");
-        
-         System.out.println("Osman'dan selamlar");
+
+        System.out.println("Osman'dan selamlar");
 
 
 
@@ -51,12 +52,6 @@ public class GoogleStep {
 
         System.out.println("Usame den merhabalar");
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
-
-
 
 
 }
