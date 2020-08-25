@@ -20,7 +20,7 @@ public class GoogleStep {
 
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
-         System.out.println("KRAL HAKAN SUKUR");
+        System.out.println("KRAL HAKAN SUKUR");
         System.out.println("Herkese Merhaba Selcuk");
         System.out.println("ismail'den selamlar");
         System.out.println("Fedai'den selamlar");
@@ -48,6 +48,6 @@ public class GoogleStep {
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphone"));
 
     }
-    System.out.println("Usame den merhabalar")
+
 
 }
