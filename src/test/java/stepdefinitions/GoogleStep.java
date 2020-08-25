@@ -7,15 +7,8 @@ import pages.GooglePage;
 import utilities.Driver;
 
 public class GoogleStep {
-    GooglePage googlePage = new GooglePage();
-    @Given("user on the google page")
-    public void user_on_the_google_page() {
-        Driver.getDriver().get("https://www.google.com");
 
-        
-        
-        
-        
+
 
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
@@ -54,8 +47,8 @@ public class GoogleStep {
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphone"));
 
         System.out.println("Usame den merhabalar");
-    }
 
+    }
 
 
 }
