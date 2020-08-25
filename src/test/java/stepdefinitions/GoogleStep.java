@@ -23,6 +23,7 @@ public class GoogleStep {
     public void user_searches_for_iphone() {
         googlePage.searchBox.sendKeys("iphone");
         googlePage.searchBox.submit();
+         System.out.println("ikinci commit from ruveyda");
     }
 
     @Then("verify the results has iphone")
