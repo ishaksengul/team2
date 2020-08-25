@@ -18,11 +18,13 @@ public class GoogleStep {
         System.out.println("Herkese Merhaba Selcuk");
         System.out.println("ismail'den selamlar");
         System.out.println("Fedai'den selamlar");
-        System.out.println("KRAL HAKAN SUKUR");
+        System.out.println("KRAL HAKAN SUKUR");  
+        
+        System.out.println("KRAL HAKAN SUKUR I aggree");
         
         
         
-        System.out.println("Yeni bir Dünya!");
+        
          System.out.println("Osman'dan selamlar");
     }
 
