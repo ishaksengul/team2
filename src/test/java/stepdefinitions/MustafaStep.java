@@ -13,23 +13,16 @@ public class MustafaStep {
     @Given("user on the google page")
     public void user_on_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
-
     }
-
     @Given("user searches for muska")
     public void user_searches_for_muska() {
         mustafaPage.searchBox.sendKeys("muska");
         mustafaPage.searchBox.submit();
     }
-
     @Then("verify the results has muska")
     public void verify_the_results_has_muska() {
 
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("muska"));
-        System.out.println("Ikinci degisiklik");
-
 
     }
-
-
 }
