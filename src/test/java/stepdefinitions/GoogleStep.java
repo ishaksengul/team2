@@ -22,7 +22,7 @@ public class GoogleStep {
         
         
         
-        
+        System.out.println("Yeni bir Dünya!");
          System.out.println("Osman'dan selamlar");
     }
 
