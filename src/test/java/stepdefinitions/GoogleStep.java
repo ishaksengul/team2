@@ -11,7 +11,7 @@ public class GoogleStep {
     @Given("user on the google page")
     public void user_on_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
-<<<<<<< HEAD
+
 
         
         
@@ -37,9 +37,9 @@ public class GoogleStep {
 
 
 
-=======
+
         System.out.println("ismail'den selamlar");
->>>>>>> bc59a1850e69abe46dc834ae6c555de46c8c3e5a
+
     }
 
     @Given("user searches for iphone")

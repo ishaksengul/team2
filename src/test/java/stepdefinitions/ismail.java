@@ -10,8 +10,5 @@ import utilities.Driver;
 
 public class ismail {
 
-    @Test
-    public void ismail(){
-        System.out.printf("ismailden kendine");
-    }
+
 }
