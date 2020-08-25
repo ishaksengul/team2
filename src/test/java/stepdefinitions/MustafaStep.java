@@ -26,6 +26,7 @@ public class MustafaStep {
     public void verify_the_results_has_muska() {
 
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("muska"));
+        System.out.println("Ikinci degisiklik");
 
 
     }
