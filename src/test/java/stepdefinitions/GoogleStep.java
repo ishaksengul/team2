@@ -51,10 +51,6 @@ public class GoogleStep {
 
         System.out.println("Usame den merhabalar");
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
 
 
 }
