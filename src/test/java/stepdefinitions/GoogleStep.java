@@ -16,7 +16,7 @@ public class GoogleStep {
         System.out.println("Mustafa!");
         System.out.println("Herkese Merhaba Selcuk");
         System.out.println("ismail'den selamlar");
-        
+        System.out.println("Feda'den selamlar");
     }
 
     @Given("user searches for iphone")
