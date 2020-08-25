@@ -14,17 +14,24 @@ public class GoogleStep {
         Driver.getDriver().get("https://www.google.com");
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
+         System.out.println("KRAL HAKAN SUKUR");
         System.out.println("Herkese Merhaba Selcuk");
         System.out.println("ismail'den selamlar");
         System.out.println("Fedai'den selamlar");
-         System.out.println("Sahandan selamlar");
+        System.out.println("KRAL HAKAN SUKUR");  
+        
+        
+        
+        
+        System.out.println("KRAL HAKAN  I aggree");
+        
+         System.out.println("Osman'dan selamlar");
     }
 
     @Given("user searches for iphone")
     public void user_searches_for_iphone() {
         googlePage.searchBox.sendKeys("iphone");
         googlePage.searchBox.submit();
-         System.out.println("ikinci commit from ruveyda");
     }
 
     @Then("verify the results has iphone")
