@@ -48,6 +48,7 @@ public class GoogleStep {
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphone"));
 
     }
-    System.out.println("Usame den merhabalar");
+
+
 
 }

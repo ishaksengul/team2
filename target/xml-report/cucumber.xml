@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.519">
-<testcase classname="Google search" name="user search iphone on google" time="24.451">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.163">
+<testcase classname="Google search" name="user search iphone on google" time="9.903">
 <system-out><![CDATA[Given user on the google page...............................................passed
 And user searches for iphone................................................passed
 Then verify the results has iphone..........................................passed
