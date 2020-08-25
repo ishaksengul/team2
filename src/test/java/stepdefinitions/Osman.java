@@ -6,6 +6,8 @@ import pages.GooglePage;
 import utilities.Driver;
 
 public class Osman {
+    //Cakismm varmis
+    //git push --set-upstream origin osman
     GooglePage googlePage = new GooglePage();
 
     @Given("user searches for Mathematik")
