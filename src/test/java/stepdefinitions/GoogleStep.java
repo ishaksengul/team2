@@ -12,6 +12,7 @@ public class GoogleStep {
     public void user_on_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
 
+
         
         
         
@@ -35,6 +36,9 @@ public class GoogleStep {
 
 
 
+
+
+        System.out.print("Mustafa dan selamlar");
 
     }
 
