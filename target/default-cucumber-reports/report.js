@@ -1,21 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/osman.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/fedai.feature");
 formatter.feature({
   "name": "Google search",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@Osman"
+      "name": "@fedai"
     }
   ]
 });
 formatter.scenario({
-  "name": "user search Mathematik on google",
+  "name": "user search iphone on google",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@Osman"
+      "name": "@fedai"
     }
   ]
 });
@@ -27,22 +27,26 @@ formatter.match({
   "location": "stepdefinitions.GoogleStep.user_on_the_google_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user searches for Mathematik",
+  "name": "user searches for iphone",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "stepdefinitions.GoogleStep.user_searches_for_iphone()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "verify the results has Mathematik",
+  "name": "verify the results has iphone",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "stepdefinitions.GoogleStep.verify_the_results_has_iphone()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 });

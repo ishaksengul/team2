@@ -36,6 +36,9 @@ public class GoogleStep {
 
 
 
+
+        System.out.println("Merhaba Arkadaslar, ilk projemi gonderiyorum");
+
     }
 
     @Given("user searches for iphone")
@@ -52,6 +55,7 @@ public class GoogleStep {
 
         System.out.println("Usame den merhabalar");
     }
+
 
 
 }
