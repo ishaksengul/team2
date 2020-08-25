@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-08-10T20:41:53.490Z",
+        "start_timestamp": "2020-08-25T22:20:21.572Z",
         "line": 3,
         "name": "user search iphone on google",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13885000000,
+              "duration": 10324000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 7973000000,
+              "duration": 2416000000,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 2158000000,
+              "duration": 2031000000,
               "status": "passed"
             },
             "line": 6,

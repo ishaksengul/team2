@@ -7,32 +7,32 @@ import pages.GooglePage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class GoogleStep {
+public class MustafaStep {
     GooglePage googlePage = new GooglePage();
     @Given("user on the google page")
     public void user_on_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
 
-        
-        
-        
-        
+
+
+
+
 
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
-         System.out.println("KRAL HAKAN SUKUR");
+        System.out.println("KRAL HAKAN SUKUR");
         System.out.println("Herkese Merhaba Selcuk");
         System.out.println("ismail'den selamlar");
         System.out.println("Fedai'den selamlar");
-        System.out.println("KRAL HAKAN SUKUR");  
+        System.out.println("KRAL HAKAN SUKUR");
         System.out.println("ilk commit from ruveyda");
-        
-        
-        
+
+
+
         System.out.println("Yeni bir Dünya!");
         System.out.println("KRAL HAKAN  I aggree");
-        
-         System.out.println("Osman'dan selamlar");
+
+        System.out.println("Osman'dan selamlar");
 
 
 
