@@ -12,7 +12,7 @@ public class GoogleStep {
     @Given("user on the google page")
     public void user_on_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
-        System.out.println("Hello everyone!");
+        System.out.println("Osman : Merhaba arkadaslar ")
     }
 
     @Given("user searches for iphone")
