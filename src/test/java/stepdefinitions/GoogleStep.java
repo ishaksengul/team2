@@ -7,56 +7,9 @@ import pages.GooglePage;
 import utilities.Driver;
 
 public class GoogleStep {
-    GooglePage googlePage = new GooglePage();
-    @Given("user on the google page")
-    public void user_on_the_google_page() {
-        Driver.getDriver().get("https://www.google.com");
-
-        
-        
-        
-        
-
-        System.out.println("Hello everyone!");
-        System.out.println("Mustafa!");
-        System.out.println("KRAL HAKAN SUKUR");
-        System.out.println("Herkese Merhaba Selcuk");
-        System.out.println("ismail'den selamlar");
-        System.out.println("Fedai'den selamlar");
-        System.out.println("KRAL HAKAN SUKUR");  
-        System.out.println("ilk commit from ruveyda");
-        
-        
-        
-        System.out.println("Yeni bir Dünya!");
-        System.out.println("KRAL HAKAN  I aggree");
-        
-         System.out.println("Osman'dan selamlar");
-
-
 
 
     }
 
-    @Given("user searches for samsung")
-    public void user_searches_for_iphone() {
-        googlePage.searchBox.sendKeys("samsung");
-        googlePage.searchBox.submit();
-    }
-
-    @Then("verify the results has iphone")
-    public void verify_the_results_has_iphone() throws InterruptedException {
-        Thread.sleep(2000);
-        Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphone"));
-
-        System.out.println("Usame den merhabalar");
-    }
-<<<<<<< HEAD
-
-=======
->>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
 
 
-
-
-}
