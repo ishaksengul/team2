@@ -14,6 +14,7 @@ public class GoogleStep {
         Driver.getDriver().get("https://www.google.com");
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
+         System.out.println("KRAL HAKAN SUKUR");
         System.out.println("Herkese Merhaba Selcuk");
         System.out.println("ismail'den selamlar");
         System.out.println("Fedai'den selamlar");
