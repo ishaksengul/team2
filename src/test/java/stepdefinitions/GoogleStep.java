@@ -36,9 +36,9 @@ public class GoogleStep {
 
     }
 
-    @Given("user searches for iphone")
+    @Given("user searches for samsung")
     public void user_searches_for_iphone() {
-        googlePage.searchBox.sendKeys("iphone");
+        googlePage.searchBox.sendKeys("samsung");
         googlePage.searchBox.submit();
     }
 
