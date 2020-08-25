@@ -14,9 +14,9 @@ public class GoogleStep {
         Driver.getDriver().get("https://www.google.com");
     }
 
-    @Given("user searches for iphone")
+    @Given("user searches for samsung")
     public void user_searches_for_iphone() {
-        googlePage.searchBox.sendKeys("iphone");
+        googlePage.searchBox.sendKeys("samsung");
         googlePage.searchBox.submit();
     }
 
