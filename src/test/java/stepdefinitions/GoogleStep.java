@@ -7,8 +7,15 @@ import pages.GooglePage;
 import utilities.Driver;
 
 public class GoogleStep {
+    GooglePage googlePage = new GooglePage();
+    @Given("user on the google page")
+    public void user_on_the_google_page() {
+        Driver.getDriver().get("https://www.google.com");
 
-
+        
+        
+        
+        
 
         System.out.println("Hello everyone!");
         System.out.println("Mustafa!");
@@ -29,16 +36,12 @@ public class GoogleStep {
 
 
 
-
-        System.out.println("Merhaba Arkadaslar, ilk projemi gonderiyorum");
-
     }
 
     @Given("user searches for iphone")
     public void user_searches_for_iphone() {
         googlePage.searchBox.sendKeys("iphone");
         googlePage.searchBox.submit();
-        System.out.println("ilk commit from ruveyda");
     }
 
     @Then("verify the results has iphone")
@@ -47,8 +50,11 @@ public class GoogleStep {
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphone"));
 
         System.out.println("Usame den merhabalar");
-
     }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 63aee2263fac1c174fa95cc9a8f6fd45a89296bd
 
 
 }
